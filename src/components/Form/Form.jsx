@@ -10,7 +10,7 @@ const SignupSchema = Yup.object().shape({
     .min(7, 'Too Short!')
     .matches(
       /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
-      'Bad name format'
+      'Bad number format'
     )
     .required('Required'),
 });
