@@ -42,7 +42,7 @@ export const ContactForm = ({ newContact }) => {
             <Field type="tel" name="number" placeholder="Number" />
             <ErrorMessage name="number" />
           </label>
-          <button type="submit">submit</button>
+          <button type="submit">Add contact</button>
         </Form>
       </Formik>
       <ul></ul>
